@@ -4,5 +4,5 @@ Demo i klassen e25
 ## Tirsdag d. 23/9
 
 * Currency Service
-* Account Serviceog 
+* Account Service
 * Product Catalog Service
