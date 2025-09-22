@@ -1,2 +1,2 @@
-# Shopping_Site_Microservices
-Demo i klassen e 25
+# Shopping Site Microservices
+Demo i klassen e25
