@@ -4,7 +4,7 @@ A Flask-based microservice for currency conversion operations.
 
 ## Description
 
-This service provides currency conversion functionality with support for USD, EUR, and DKR (Danish Krone). It uses fixed exchange rates and converts all currencies through USD as the base currency.
+This service provides currency conversion functionality with support for USD, EUR, and DKK (Danish Krone). It uses fixed exchange rates and converts all currencies through USD as the base currency.
 
 ## Endpoints
 
@@ -30,8 +30,8 @@ Converts an amount from one currency to another.
 
 **Parameters:**
 - `amount` (number, required): The amount to convert
-- `from_currency` (string, required): Source currency code (USD, EUR, DKR)
-- `to_currency` (string, required): Target currency code (USD, EUR, DKR)
+- `from_currency` (string, required): Source currency code (USD, EUR, DKK)
+- `to_currency` (string, required): Target currency code (USD, EUR, DKK)
 
 #### Response
 
@@ -60,7 +60,7 @@ Converts an amount from one currency to another.
 |----------|------|---------------|
 | US Dollar | USD | 1.0 |
 | Euro | EUR | 0.85 |
-| Danish Krone | DKR | 6.37 |
+| Danish Krone | DKK | 6.37 |
 
 ## Running the Service
 
